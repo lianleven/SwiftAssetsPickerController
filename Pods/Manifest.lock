@@ -5,7 +5,7 @@ DEPENDENCIES:
   - CheckMarkView
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - CheckMarkView
 
 SPEC CHECKSUMS:
@@ -13,4 +13,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 6eaf0ff0916b267cc286170e54f9174382770394
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.0.beta.1

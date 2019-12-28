@@ -7,192 +7,191 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02C13B5CED702D6D386183ED71537F2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		164EDDE6A4F3ADEC3417700785D7A602 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		405ABAD50EFE43A95F4D7C539E83A484 /* CheckMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C46E607ED8F5099C84B5577AB74AC3 /* CheckMarkView.swift */; };
-		845229C9E99B5631F77A1ABCF1E6A8E9 /* CheckMarkView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E733E0886E9C5675D546B241FA7D1733 /* CheckMarkView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9FEE141FF5BD8C2EFDE509882DA25C5C /* Pods-SwiftAssetsPickerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54975BBD5AFD542CB3DD1F741BF0F7CB /* Pods-SwiftAssetsPickerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEEDB220E8731680DA51EC442E1CA617 /* CheckMarkView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3EF28E75D3B34BB781B14E55B011E5 /* CheckMarkView-dummy.m */; };
-		F5118CC28E22E122E9E3EC60DAA5FEDD /* Pods-SwiftAssetsPickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C67FA042C6031BE2022FF1269CBFC6BD /* Pods-SwiftAssetsPickerController-dummy.m */; };
+		0762102234D463556B26231C0331C8A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2414C26AACEF27592BF417801DDF2F3F /* CheckMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BCA8BC960EE772029A2E32D34F89FC /* CheckMarkView.swift */; };
+		29564B9906672A9FB2E7990A350250AD /* CheckMarkView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3AA277DC6CA446CAD28D88DB5161870 /* CheckMarkView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		312D878B502B05FA6D3B78C642FAB382 /* Pods-SwiftAssetsPickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD94684F2C9563870331F6109E4559A /* Pods-SwiftAssetsPickerController-dummy.m */; };
+		5C5DD22F6C7F9AF1CADC3C1C72217277 /* CheckMarkView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3BB961E4B0B86B77668FB94E047982 /* CheckMarkView-dummy.m */; };
+		A424DDDC412717302331F9C4F4D7C5E6 /* Pods-SwiftAssetsPickerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CA1B9486F0E58CB5CC0C844D9BC7241 /* Pods-SwiftAssetsPickerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC396390DAB86D16373FD14375478BD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DCCD5579FD2BA854833E3BC60024C389 /* PBXContainerItemProxy */ = {
+		BC19774BD7BA25B01DE80A1AD64974DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C6446C484B26560A27A42983580052E9;
+			remoteGlobalIDString = 00F7E26D53F57EF2BAE3FDCD21AB2A69;
 			remoteInfo = CheckMarkView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		017DD703DB24FCFB5903406A1651F232 /* CheckMarkView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CheckMarkView.framework; path = CheckMarkView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B3EF28E75D3B34BB781B14E55B011E5 /* CheckMarkView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CheckMarkView-dummy.m"; sourceTree = "<group>"; };
-		1D13A40325DC3A350E14A286B7EC6176 /* CheckMarkView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CheckMarkView-prefix.pch"; sourceTree = "<group>"; };
-		54975BBD5AFD542CB3DD1F741BF0F7CB /* Pods-SwiftAssetsPickerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftAssetsPickerController-umbrella.h"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8A78CF0DE421F63399F21D32FF4E4B37 /* Pods-SwiftAssetsPickerController-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftAssetsPickerController-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96A80D6F9092AF55AEFF9BA772F39CE3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7C4A9BC534688554163ECCD488FF4C9 /* Pods-SwiftAssetsPickerController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftAssetsPickerController-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A8C3BC46DAB2B7834D4A0D77E182B67C /* CheckMarkView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CheckMarkView.modulemap; sourceTree = "<group>"; };
-		AFC59678207AC63D2747DE6D243D11C4 /* Pods-SwiftAssetsPickerController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAssetsPickerController-acknowledgements.plist"; sourceTree = "<group>"; };
-		B29085AE0BBC2531C48CB032D92EE054 /* Pods-SwiftAssetsPickerController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAssetsPickerController.release.xcconfig"; sourceTree = "<group>"; };
-		B8C46E607ED8F5099C84B5577AB74AC3 /* CheckMarkView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckMarkView.swift; path = CheckMarkView/Sources/CheckMarkView.swift; sourceTree = "<group>"; };
-		BEE8D31B2C6480789A4AF0A957A85E2D /* Pods-SwiftAssetsPickerController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAssetsPickerController.debug.xcconfig"; sourceTree = "<group>"; };
-		C51C2D4B8F5D67F9F40C99490AF0D2B0 /* Pods-SwiftAssetsPickerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftAssetsPickerController.modulemap"; sourceTree = "<group>"; };
-		C67FA042C6031BE2022FF1269CBFC6BD /* Pods-SwiftAssetsPickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftAssetsPickerController-dummy.m"; sourceTree = "<group>"; };
-		CD999F7F5950E06490BB8C47C2C94FB4 /* Pods_SwiftAssetsPickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftAssetsPickerController.framework; path = "Pods-SwiftAssetsPickerController.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1D65CD2CC733EC7287313CF1497E31C /* CheckMarkView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CheckMarkView.xcconfig; sourceTree = "<group>"; };
-		E733E0886E9C5675D546B241FA7D1733 /* CheckMarkView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CheckMarkView-umbrella.h"; sourceTree = "<group>"; };
-		F5F7DDED61571D31CC861172FF4200D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE1CC4FACBE0FB622098BBDCD5FC75C9 /* Pods-SwiftAssetsPickerController-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftAssetsPickerController-resources.sh"; sourceTree = "<group>"; };
+		1A5D36FE596FE709A695B7933912A3E2 /* Pods_SwiftAssetsPickerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftAssetsPickerController.framework; path = "Pods-SwiftAssetsPickerController.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		206FB0DE28DCBAFD14B67A1FB463FB44 /* Pods-SwiftAssetsPickerController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAssetsPickerController-Info.plist"; sourceTree = "<group>"; };
+		26BCA8BC960EE772029A2E32D34F89FC /* CheckMarkView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckMarkView.swift; path = CheckMarkView/Sources/CheckMarkView.swift; sourceTree = "<group>"; };
+		2F994BF700C2B3672E33E771AAD860BD /* CheckMarkView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CheckMarkView-Info.plist"; sourceTree = "<group>"; };
+		2FD94684F2C9563870331F6109E4559A /* Pods-SwiftAssetsPickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftAssetsPickerController-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		39370FEA7C590D26B5FD06F9C29522B3 /* Pods-SwiftAssetsPickerController-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftAssetsPickerController-frameworks.sh"; sourceTree = "<group>"; };
+		4B234BF04497CD3E58456633527BA82D /* CheckMarkView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CheckMarkView.xcconfig; sourceTree = "<group>"; };
+		4B33B0EAEA970C4A8BE2F34820C3A4C9 /* CheckMarkView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CheckMarkView.framework; path = CheckMarkView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		562F2AFFCA25911D05B79572EFC8CABC /* Pods-SwiftAssetsPickerController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAssetsPickerController.debug.xcconfig"; sourceTree = "<group>"; };
+		5CA1B9486F0E58CB5CC0C844D9BC7241 /* Pods-SwiftAssetsPickerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftAssetsPickerController-umbrella.h"; sourceTree = "<group>"; };
+		5EDD0ECA8357B979BE4FCE3684A89ADD /* Pods-SwiftAssetsPickerController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftAssetsPickerController-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F3BB961E4B0B86B77668FB94E047982 /* CheckMarkView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CheckMarkView-dummy.m"; sourceTree = "<group>"; };
+		7C6A36E41D701728125227B8817CCA86 /* CheckMarkView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CheckMarkView.modulemap; sourceTree = "<group>"; };
+		89FE81563C693500110F9FB79453000A /* CheckMarkView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CheckMarkView-prefix.pch"; sourceTree = "<group>"; };
+		8C0844941C2B2F4541B1456CDEFD80AB /* Pods-SwiftAssetsPickerController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftAssetsPickerController.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3AA277DC6CA446CAD28D88DB5161870 /* CheckMarkView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CheckMarkView-umbrella.h"; sourceTree = "<group>"; };
+		AD0B7FE79801FCF4620DF041608B7B8B /* Pods-SwiftAssetsPickerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftAssetsPickerController.modulemap"; sourceTree = "<group>"; };
+		F6AF813F6A1ED28FE54D98A7D38BD452 /* Pods-SwiftAssetsPickerController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftAssetsPickerController-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		08A96BBEB293CEA462DFE2FF4FA0889A /* Frameworks */ = {
+		1E7F2EB51C039C44E0AC9D9177CF381E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				164EDDE6A4F3ADEC3417700785D7A602 /* Foundation.framework in Frameworks */,
+				0762102234D463556B26231C0331C8A8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		66A119FCD89642B2785D289928D448FF /* Frameworks */ = {
+		7AA890BDC35C3F0BFFE09B8DC663ACA2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02C13B5CED702D6D386183ED71537F2E /* Foundation.framework in Frameworks */,
+				EC396390DAB86D16373FD14375478BD6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4EC37FFF67D0F63CC29D0557E1AB343B /* Products */ = {
+		52BDAC5AB812EBCB07520E7D1A06F38D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				017DD703DB24FCFB5903406A1651F232 /* CheckMarkView.framework */,
-				CD999F7F5950E06490BB8C47C2C94FB4 /* Pods_SwiftAssetsPickerController.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7B3EAFADF026CC92CE2B79DFF11EAF17 /* Pods-SwiftAssetsPickerController */ = {
-			isa = PBXGroup;
-			children = (
-				F5F7DDED61571D31CC861172FF4200D9 /* Info.plist */,
-				C51C2D4B8F5D67F9F40C99490AF0D2B0 /* Pods-SwiftAssetsPickerController.modulemap */,
-				A7C4A9BC534688554163ECCD488FF4C9 /* Pods-SwiftAssetsPickerController-acknowledgements.markdown */,
-				AFC59678207AC63D2747DE6D243D11C4 /* Pods-SwiftAssetsPickerController-acknowledgements.plist */,
-				C67FA042C6031BE2022FF1269CBFC6BD /* Pods-SwiftAssetsPickerController-dummy.m */,
-				8A78CF0DE421F63399F21D32FF4E4B37 /* Pods-SwiftAssetsPickerController-frameworks.sh */,
-				FE1CC4FACBE0FB622098BBDCD5FC75C9 /* Pods-SwiftAssetsPickerController-resources.sh */,
-				54975BBD5AFD542CB3DD1F741BF0F7CB /* Pods-SwiftAssetsPickerController-umbrella.h */,
-				BEE8D31B2C6480789A4AF0A957A85E2D /* Pods-SwiftAssetsPickerController.debug.xcconfig */,
-				B29085AE0BBC2531C48CB032D92EE054 /* Pods-SwiftAssetsPickerController.release.xcconfig */,
-			);
-			name = "Pods-SwiftAssetsPickerController";
-			path = "Target Support Files/Pods-SwiftAssetsPickerController";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				B73C8E310C74CAA7C0444ED1BD390499 /* Pods */,
-				4EC37FFF67D0F63CC29D0557E1AB343B /* Products */,
-				D80DA9C5AD7D0DC74516B0D570DAFDA3 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		B73C8E310C74CAA7C0444ED1BD390499 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F7BE9ADC2CFD50791839FD92EC6106E5 /* CheckMarkView */,
+				BB0C0E9877A5F961C2C0D40546509757 /* CheckMarkView */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		73848F7E93A948C42F233D0529CDAA7A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		D80DA9C5AD7D0DC74516B0D570DAFDA3 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7B3EAFADF026CC92CE2B79DFF11EAF17 /* Pods-SwiftAssetsPickerController */,
+				C4B7F2F8EC9B7353D0AC8903F8E8D733 /* Pods-SwiftAssetsPickerController */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		ECCFB2E8235F681C43E6807037493643 /* Support Files */ = {
+		782F4B2D9BDC681F9833A29C1A50E2BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A8C3BC46DAB2B7834D4A0D77E182B67C /* CheckMarkView.modulemap */,
-				D1D65CD2CC733EC7287313CF1497E31C /* CheckMarkView.xcconfig */,
-				1B3EF28E75D3B34BB781B14E55B011E5 /* CheckMarkView-dummy.m */,
-				1D13A40325DC3A350E14A286B7EC6176 /* CheckMarkView-prefix.pch */,
-				E733E0886E9C5675D546B241FA7D1733 /* CheckMarkView-umbrella.h */,
-				96A80D6F9092AF55AEFF9BA772F39CE3 /* Info.plist */,
+				4B33B0EAEA970C4A8BE2F34820C3A4C9 /* CheckMarkView.framework */,
+				1A5D36FE596FE709A695B7933912A3E2 /* Pods_SwiftAssetsPickerController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		864A547B2B6A894615414FE6EF9B441C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C6A36E41D701728125227B8817CCA86 /* CheckMarkView.modulemap */,
+				4B234BF04497CD3E58456633527BA82D /* CheckMarkView.xcconfig */,
+				5F3BB961E4B0B86B77668FB94E047982 /* CheckMarkView-dummy.m */,
+				2F994BF700C2B3672E33E771AAD860BD /* CheckMarkView-Info.plist */,
+				89FE81563C693500110F9FB79453000A /* CheckMarkView-prefix.pch */,
+				A3AA277DC6CA446CAD28D88DB5161870 /* CheckMarkView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CheckMarkView";
 			sourceTree = "<group>";
 		};
-		F7BE9ADC2CFD50791839FD92EC6106E5 /* CheckMarkView */ = {
+		BB0C0E9877A5F961C2C0D40546509757 /* CheckMarkView */ = {
 			isa = PBXGroup;
 			children = (
-				B8C46E607ED8F5099C84B5577AB74AC3 /* CheckMarkView.swift */,
-				ECCFB2E8235F681C43E6807037493643 /* Support Files */,
+				26BCA8BC960EE772029A2E32D34F89FC /* CheckMarkView.swift */,
+				864A547B2B6A894615414FE6EF9B441C /* Support Files */,
 			);
 			name = CheckMarkView;
 			path = CheckMarkView;
 			sourceTree = "<group>";
 		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C4B7F2F8EC9B7353D0AC8903F8E8D733 /* Pods-SwiftAssetsPickerController */ = {
+			isa = PBXGroup;
+			children = (
+				AD0B7FE79801FCF4620DF041608B7B8B /* Pods-SwiftAssetsPickerController.modulemap */,
+				5EDD0ECA8357B979BE4FCE3684A89ADD /* Pods-SwiftAssetsPickerController-acknowledgements.markdown */,
+				F6AF813F6A1ED28FE54D98A7D38BD452 /* Pods-SwiftAssetsPickerController-acknowledgements.plist */,
+				2FD94684F2C9563870331F6109E4559A /* Pods-SwiftAssetsPickerController-dummy.m */,
+				39370FEA7C590D26B5FD06F9C29522B3 /* Pods-SwiftAssetsPickerController-frameworks.sh */,
+				206FB0DE28DCBAFD14B67A1FB463FB44 /* Pods-SwiftAssetsPickerController-Info.plist */,
+				5CA1B9486F0E58CB5CC0C844D9BC7241 /* Pods-SwiftAssetsPickerController-umbrella.h */,
+				562F2AFFCA25911D05B79572EFC8CABC /* Pods-SwiftAssetsPickerController.debug.xcconfig */,
+				8C0844941C2B2F4541B1456CDEFD80AB /* Pods-SwiftAssetsPickerController.release.xcconfig */,
+			);
+			name = "Pods-SwiftAssetsPickerController";
+			path = "Target Support Files/Pods-SwiftAssetsPickerController";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				52BDAC5AB812EBCB07520E7D1A06F38D /* Pods */,
+				782F4B2D9BDC681F9833A29C1A50E2BA /* Products */,
+				73848F7E93A948C42F233D0529CDAA7A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0ED16D8493F363FAA70A95D1229631A8 /* Headers */ = {
+		2C23E67C1F84CEB7C05C23FBFB1337A2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845229C9E99B5631F77A1ABCF1E6A8E9 /* CheckMarkView-umbrella.h in Headers */,
+				29564B9906672A9FB2E7990A350250AD /* CheckMarkView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A219E9D745CF2FC4974B9B5DFA312AE2 /* Headers */ = {
+		938BAB24945024D0E6139C9741EC5131 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FEE141FF5BD8C2EFDE509882DA25C5C /* Pods-SwiftAssetsPickerController-umbrella.h in Headers */,
+				A424DDDC412717302331F9C4F4D7C5E6 /* Pods-SwiftAssetsPickerController-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C6446C484B26560A27A42983580052E9 /* CheckMarkView */ = {
+		00F7E26D53F57EF2BAE3FDCD21AB2A69 /* CheckMarkView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B724D6802587D991C0376784658CA09 /* Build configuration list for PBXNativeTarget "CheckMarkView" */;
+			buildConfigurationList = B62C1257EC1E02C582A3C1698EE78E83 /* Build configuration list for PBXNativeTarget "CheckMarkView" */;
 			buildPhases = (
-				9D85D19EAC16347B8BAD51847DEC5A94 /* Sources */,
-				08A96BBEB293CEA462DFE2FF4FA0889A /* Frameworks */,
-				0ED16D8493F363FAA70A95D1229631A8 /* Headers */,
+				2C23E67C1F84CEB7C05C23FBFB1337A2 /* Headers */,
+				31EAC1BA1E76B49F9A61976CB2AD0354 /* Sources */,
+				1E7F2EB51C039C44E0AC9D9177CF381E /* Frameworks */,
+				B569CC5FDFD879AA4ACACE40B268A8D5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -200,88 +199,107 @@
 			);
 			name = CheckMarkView;
 			productName = CheckMarkView;
-			productReference = 017DD703DB24FCFB5903406A1651F232 /* CheckMarkView.framework */;
+			productReference = 4B33B0EAEA970C4A8BE2F34820C3A4C9 /* CheckMarkView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D3D0C87DF44D68CADE9C34954F3B7615 /* Pods-SwiftAssetsPickerController */ = {
+		E37C4CB8AB21EB3A614297CD42D5A087 /* Pods-SwiftAssetsPickerController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2293CE108CC8D15A7879BE5A79706094 /* Build configuration list for PBXNativeTarget "Pods-SwiftAssetsPickerController" */;
+			buildConfigurationList = 0F26CC109CD1822442C15B0062037D7D /* Build configuration list for PBXNativeTarget "Pods-SwiftAssetsPickerController" */;
 			buildPhases = (
-				66068A1462EEBD22DFBB748EF329610F /* Sources */,
-				66A119FCD89642B2785D289928D448FF /* Frameworks */,
-				A219E9D745CF2FC4974B9B5DFA312AE2 /* Headers */,
+				938BAB24945024D0E6139C9741EC5131 /* Headers */,
+				D4674738819E840694E27386107E5D16 /* Sources */,
+				7AA890BDC35C3F0BFFE09B8DC663ACA2 /* Frameworks */,
+				15E1ABEBC876A62024FFA3DE04583ADF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CAFE99853A976D000B5D956A3A411ABE /* PBXTargetDependency */,
+				DE94C315F09866EC47DDF4F01BAA8B0C /* PBXTargetDependency */,
 			);
 			name = "Pods-SwiftAssetsPickerController";
 			productName = "Pods-SwiftAssetsPickerController";
-			productReference = CD999F7F5950E06490BB8C47C2C94FB4 /* Pods_SwiftAssetsPickerController.framework */;
+			productReference = 1A5D36FE596FE709A695B7933912A3E2 /* Pods_SwiftAssetsPickerController.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 4EC37FFF67D0F63CC29D0557E1AB343B /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 782F4B2D9BDC681F9833A29C1A50E2BA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C6446C484B26560A27A42983580052E9 /* CheckMarkView */,
-				D3D0C87DF44D68CADE9C34954F3B7615 /* Pods-SwiftAssetsPickerController */,
+				00F7E26D53F57EF2BAE3FDCD21AB2A69 /* CheckMarkView */,
+				E37C4CB8AB21EB3A614297CD42D5A087 /* Pods-SwiftAssetsPickerController */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		66068A1462EEBD22DFBB748EF329610F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		15E1ABEBC876A62024FFA3DE04583ADF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5118CC28E22E122E9E3EC60DAA5FEDD /* Pods-SwiftAssetsPickerController-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D85D19EAC16347B8BAD51847DEC5A94 /* Sources */ = {
+		B569CC5FDFD879AA4ACACE40B268A8D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31EAC1BA1E76B49F9A61976CB2AD0354 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEEDB220E8731680DA51EC442E1CA617 /* CheckMarkView-dummy.m in Sources */,
-				405ABAD50EFE43A95F4D7C539E83A484 /* CheckMarkView.swift in Sources */,
+				5C5DD22F6C7F9AF1CADC3C1C72217277 /* CheckMarkView-dummy.m in Sources */,
+				2414C26AACEF27592BF417801DDF2F3F /* CheckMarkView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4674738819E840694E27386107E5D16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312D878B502B05FA6D3B78C642FAB382 /* Pods-SwiftAssetsPickerController-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CAFE99853A976D000B5D956A3A411ABE /* PBXTargetDependency */ = {
+		DE94C315F09866EC47DDF4F01BAA8B0C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CheckMarkView;
-			target = C6446C484B26560A27A42983580052E9 /* CheckMarkView */;
-			targetProxy = DCCD5579FD2BA854833E3BC60024C389 /* PBXContainerItemProxy */;
+			target = 00F7E26D53F57EF2BAE3FDCD21AB2A69 /* CheckMarkView */;
+			targetProxy = BC19774BD7BA25B01DE80A1AD64974DF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		13623AD37CC10BC608DEDE7602A06F08 /* Release */ = {
+		3FC20C8A666EB9635E3735A70C8B82F5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1D65CD2CC733EC7287313CF1497E31C /* CheckMarkView.xcconfig */;
+			baseConfigurationReference = 8C0844941C2B2F4541B1456CDEFD80AB /* Pods-SwiftAssetsPickerController.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -291,19 +309,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CheckMarkView/CheckMarkView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CheckMarkView/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAssetsPickerController/Pods-SwiftAssetsPickerController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CheckMarkView/CheckMarkView.modulemap";
-				PRODUCT_MODULE_NAME = CheckMarkView;
-				PRODUCT_NAME = CheckMarkView;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAssetsPickerController/Pods-SwiftAssetsPickerController.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -311,7 +329,7 @@
 			};
 			name = Release;
 		};
-		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -343,8 +361,66 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -365,88 +441,21 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		2C89C6E20A362724B8318C310A930CD6 /* Debug */ = {
+		81FA84D79C36109ACF924032D1066B2D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEE8D31B2C6480789A4AF0A957A85E2D /* Pods-SwiftAssetsPickerController.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAssetsPickerController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAssetsPickerController/Pods-SwiftAssetsPickerController.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		471DFC892A621B5BC88CA9F657B1EEF4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B29085AE0BBC2531C48CB032D92EE054 /* Pods-SwiftAssetsPickerController.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAssetsPickerController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAssetsPickerController/Pods-SwiftAssetsPickerController.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EDD2F09D835B51C45B452C68D951AA69 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1D65CD2CC733EC7287313CF1497E31C /* CheckMarkView.xcconfig */;
+			baseConfigurationReference = 4B234BF04497CD3E58456633527BA82D /* CheckMarkView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -458,7 +467,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/CheckMarkView/CheckMarkView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CheckMarkView/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/CheckMarkView/CheckMarkView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -468,7 +477,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -476,95 +484,102 @@
 			};
 			name = Debug;
 		};
-		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+		BDE81725CB6F6ABC6667F297600AFAF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 562F2AFFCA25911D05B79572EFC8CABC /* Pods-SwiftAssetsPickerController.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftAssetsPickerController/Pods-SwiftAssetsPickerController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftAssetsPickerController/Pods-SwiftAssetsPickerController.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E22D099D7B78F2945963BA2BEF707405 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B234BF04497CD3E58456633527BA82D /* CheckMarkView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CheckMarkView/CheckMarkView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CheckMarkView/CheckMarkView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CheckMarkView/CheckMarkView.modulemap";
+				PRODUCT_MODULE_NAME = CheckMarkView;
+				PRODUCT_NAME = CheckMarkView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2293CE108CC8D15A7879BE5A79706094 /* Build configuration list for PBXNativeTarget "Pods-SwiftAssetsPickerController" */ = {
+		0F26CC109CD1822442C15B0062037D7D /* Build configuration list for PBXNativeTarget "Pods-SwiftAssetsPickerController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C89C6E20A362724B8318C310A930CD6 /* Debug */,
-				471DFC892A621B5BC88CA9F657B1EEF4 /* Release */,
+				BDE81725CB6F6ABC6667F297600AFAF3 /* Debug */,
+				3FC20C8A666EB9635E3735A70C8B82F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
-				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B724D6802587D991C0376784658CA09 /* Build configuration list for PBXNativeTarget "CheckMarkView" */ = {
+		B62C1257EC1E02C582A3C1698EE78E83 /* Build configuration list for PBXNativeTarget "CheckMarkView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EDD2F09D835B51C45B452C68D951AA69 /* Debug */,
-				13623AD37CC10BC608DEDE7602A06F08 /* Release */,
+				81FA84D79C36109ACF924032D1066B2D /* Debug */,
+				E22D099D7B78F2945963BA2BEF707405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

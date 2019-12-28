@@ -146,12 +146,17 @@ open class AssetsPickerController: UITableViewController, PHPhotoLibraryChangeOb
 	}
 	
 	override open func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-		let cell: UITableViewCell = UITableViewCell(style: UITableViewCell.CellStyle.subtitle, reuseIdentifier: reuseIdentifier)
+        var cell = tableView.dequeueReusableCell(withIdentifier: reuseIdentifier)
+        if cell == nil {
+            cell = UITableViewCell(style: .subtitle, reuseIdentifier: reuseIdentifier)
+        }
+        if indexPath.row < items.count {
+            cell?.imageView?.image = items[indexPath.row].image
+            cell?.textLabel?.text = NSLocalizedString(items[indexPath.row].title, comment: "")
+        }
 		
-		cell.imageView?.image = items[(indexPath as NSIndexPath).row].image
-		cell.textLabel?.text = NSLocalizedString(items[(indexPath as NSIndexPath).row].title, comment: "")
 		
-		return cell
+		return cell!
 	}
 	
 	// MARK: UITableViewDelegate
